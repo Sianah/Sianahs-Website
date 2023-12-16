@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Logo from "../Assets/Logo.svg";
 import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
@@ -18,6 +18,22 @@ import ShoppingCartRounded from "@mui/icons-material/ShoppingCartRounded";
 
 
 const Navbar = () => {
+
+  const[openMenu,setOpenMenu] = useState(false)
+  const menuOption = [
+    {
+      text: "Home",
+      icon: <HomeIcon/>
+    },
+    {
+      text: "About",
+      icon: <infoIcon/>
+    },
+    {
+      text: "Contact",
+      icon: <PhoneRoundedIcon/>
+    },
+  ]
   return (
     <div>
     Navbar
