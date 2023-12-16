@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Logo from "../Assets/Logo.svg";
+import SianahLogo from "../Assets/SianahLogo.png";
 import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import{
@@ -27,7 +28,7 @@ const Navbar = () => {
     },
     {
       text: "About",
-      icon: <infoIcon/>
+      icon: <InfoIcon/>
     },
     {
       text: "Contact",
@@ -35,9 +36,11 @@ const Navbar = () => {
     },
   ]
   return (
-    <div>
-    Navbar
-    </div>
+    <nav>
+      <div className="navbar-logo-container">
+        <img src={SianahLogo} alt="" />
+      </div>
+    </nav>
   )
 }
 
