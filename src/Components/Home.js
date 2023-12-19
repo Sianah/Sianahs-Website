@@ -24,10 +24,15 @@ const Home = () => {
           Down below are a few examples of what I’ve made or have worked on in 
           collaboration with others
           </p>
-          <button className="secondary-button" style={{position:'absolute', left:80, bottom:-100}}>
+          <button className="secondary-button" style={{position:'absolute', left:80, bottom:-20}}>
             Contact<PhoneRoundedIcon/>
           </button>
         </div>
+
+      <div className="home-image-container">
+        <img src={Headshot} alt="" />
+      </div>
+
       </div>
 
     </div>
