@@ -38,6 +38,9 @@ const Navbar = () => {
       <div className="navbar-logo-container">
         <img src={SianahLogo} 
         style = {{width:250, height:250, position: 'absolute', top: -80}}alt="" />
+        <p className="primary-text" style={{position:'absolute', top: 40, left: 115}}>
+          (See-ahn-uh Small)
+          </p>
       </div>
 
       <div className="navbar-links-container">
