@@ -38,7 +38,8 @@ const Navbar = () => {
   return (
     <nav>
       <div className="navbar-logo-container">
-        <img src={SianahLogo} width={200} height={200} alt="" />
+        <img src={SianahLogo} 
+        style = {{width:250, height:250, position: 'absolute', top: -80}}alt="" />
       </div>
 
       <div className="navbar-links-container">
