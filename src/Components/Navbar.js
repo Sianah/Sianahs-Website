@@ -38,14 +38,17 @@ const Navbar = () => {
   return (
     <nav>
       <div className="navbar-logo-container">
-        <img src={SianahLogo} alt="" />
+        <img src={SianahLogo} width={200} height={200} alt="" />
       </div>
 
       <div className="navbar-links-container">
         <a href="">Home</a>
         <a href="">About</a>
         <a href="">Contact</a>
+      </div>
 
+      <div className="navbar-menu-container">
+      <HiOutlineBars3 onClick={() => setOpenMenu(true)}/>
       </div>
     </nav>
   )
