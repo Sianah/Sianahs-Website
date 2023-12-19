@@ -3,6 +3,7 @@ import Navbar from './Navbar'
 import LandingBackground from "../Assets/landing-page-background.png"
 import Headshot from "../Assets/headshot.png"
 import { FiArrowRight } from "react-icons/fi"
+import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 
 const Home = () => {
   return (
@@ -23,6 +24,9 @@ const Home = () => {
           Down below are a few examples of what I’ve made or have worked on in 
           collaboration with others
           </p>
+          <button className="secondary-button" style={{position:'absolute', left:80, bottom:-100}}>
+            Contact<PhoneRoundedIcon/>
+          </button>
         </div>
       </div>
 
