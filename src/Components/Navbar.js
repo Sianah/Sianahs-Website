@@ -16,6 +16,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRounded from "@mui/icons-material/ShoppingCartRounded";
+import { pink } from '@mui/material/colors';
 
 
 const Navbar = () => {
@@ -45,7 +46,9 @@ const Navbar = () => {
       <div className="navbar-links-container">
         <a href="">Home</a>
         <a href="">About</a>
-        <a href="">Contact</a>
+        <button className="primary-button">
+          Contact
+        </button>
       </div>
 
       <div className="navbar-menu-container">
