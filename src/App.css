@@ -87,9 +87,9 @@ nav {
 }
 .primary-heading {
   font-size: clamp(2rem, 5vw, 4rem);
-  color: #4c4c4c;
+  color: #333232;
   /* line-height: 5rem; */
-  max-width: 600px;
+  max-width: 700px;
 }
 .primary-text {
   font-size: clamp(1rem, 3vw, 1.5rem);
