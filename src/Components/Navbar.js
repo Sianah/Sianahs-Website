@@ -40,6 +40,13 @@ const Navbar = () => {
       <div className="navbar-logo-container">
         <img src={SianahLogo} alt="" />
       </div>
+
+      <div className="navbar-links-container">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Contact</a>
+
+      </div>
     </nav>
   )
 }
