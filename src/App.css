@@ -43,7 +43,7 @@ nav {
 }
 .primary-button {
   padding: 0.9rem 1.75rem;
-  background-color: white;
+  background-color: rgb(249, 199, 170);
   outline: none;
   border: none;
   border-radius: 5rem;
@@ -56,7 +56,7 @@ nav {
   font-size: 1.15rem;
 }
 .primary-button:hover {
-  background-color: rgb(234, 234, 234);
+  background-color: rgb(170, 220, 249)
 }
 .navbar-menu-container svg {
   font-size: 1.5rem;
