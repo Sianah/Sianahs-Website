@@ -1,9 +1,8 @@
 import React, { useState } from 'react'
-import Logo from "../Assets/Logo.svg";
 import SianahLogo from "../Assets/SianahLogo.png";
-import { BsCart2 } from "react-icons/bs";
 import { HiOutlineBars3 } from "react-icons/hi2";
 import{
+  List,
   Box,
   Drawer,
   ListItem,
@@ -13,10 +12,8 @@ import{
 } from "@mui/material";
 import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
-import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
-import ShoppingCartRounded from "@mui/icons-material/ShoppingCartRounded";
-import { pink } from '@mui/material/colors';
+
 
 
 const Navbar = () => {
@@ -54,6 +51,31 @@ const Navbar = () => {
       <div className="navbar-menu-container">
       <HiOutlineBars3 onClick={() => setOpenMenu(true)}/>
       </div>
+
+      <Drawer open = {openMenu} onClose={() => setOpenMenu(false)}>
+        <Box sx = {{width: 250}}
+        role = "presentation"
+        onClick = {() => setOpenMenu(false)}
+        onKeyDown = {() => setOpenMenu(false)}
+        >
+          <List>
+            {menuOption.map((item) => (
+              <ListItem key = {item.text} disablePadding>
+                <ListItemButton>
+                  <ListItemIcon>
+                    {item.icon}
+                  </ListItemIcon>
+                  
+                  <ListItemText primary = {item.text}/>
+
+                </ListItemButton>
+              </ListItem>
+            )
+            )}
+          </List>
+
+        </Box>
+      </Drawer>
     </nav>
   )
 }
