@@ -29,8 +29,35 @@ const Projects = () => {
         },
     ]
   return (
-    <div className="about-section-container">
-        
+    <div className="work-section-wrapper">
+        <div className="work-section-top">
+            <h1 className="primary-subheading">
+                My Projects
+            </h1>
+            <p className="primary-text">
+                Here is a list of all the projects I have made so far 
+            </p>
+        </div>
+
+        <div className="work-section-button">
+            {
+                projectData.map((data) => (
+                    <div className="work-section-info">
+                        <div className="info-boxes-img-container">
+                            <img src={data.image} alt="" />
+                        </div>
+                        <h2>
+                            {data.title}
+                        </h2>
+                        <p>
+                            {data.text}
+                        </p>
+                    </div>
+                )
+            )
+        }
+    </div>
+
     </div>
   )
 }
