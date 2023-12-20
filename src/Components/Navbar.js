@@ -13,6 +13,7 @@ import{
 import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
+import {Link } from "react-router-dom";
 
 
 
@@ -44,8 +45,8 @@ const Navbar = () => {
       </div>
 
       <div className="navbar-links-container">
-        <a href="">Home</a>
-        <a href="">About</a>
+        <Link to = "/">Home</Link>
+        <Link to = "/About">About</Link>
         <button className="primary-button">
           Contact
         </button>
