@@ -39,7 +39,7 @@ const Projects = () => {
             </p>
         </div>
 
-        <div className="work-section-button">
+        <div className="work-section-bottom">
             {
                 projectData.map((data) => (
                     <div className="work-section-info">
