@@ -31,7 +31,7 @@ const Projects = () => {
   return (
     <div className="work-section-wrapper">
         <div className="work-section-top">
-            <h1 className="primary-subheading">
+            <h1 className="primary-heading" style={{color: '#F9C7AA'}}>
                 My Projects
             </h1>
             <p className="primary-text">

@@ -279,18 +279,18 @@ nav {
   flex-direction: column;
 }
 .work-section-info {
-  width: 290px;
+  width: 415px;
   min-height: 350px;
-  background-color: white;
+  /* background-color: white; */
   padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  text-align: left;
   border-radius: 1rem;
   color: #505050;
-  margin: 1rem 2rem;
+  margin: 1rem 5rem;
 }
 .work-section-info h2 {
   margin: 1rem 0rem;
