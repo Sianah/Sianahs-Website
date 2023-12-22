@@ -46,7 +46,7 @@ const Navbar = () => {
 
       <div className="navbar-links-container">
         <Link to = "/">Home</Link>
-        <Link to = "/About">About</Link>
+        <Link to = "/about">About</Link>
         <button className="primary-button">
           Contact
         </button>
