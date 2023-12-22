@@ -48,7 +48,7 @@ const Navbar = () => {
         <Link to = "/">Home</Link>
         <Link to = "/about">About</Link>
         <button className="primary-button">
-          <Link to = "/contact">Contact</Link>
+          <Link to = "/contact">Contact</Link> <PhoneRoundedIcon style={{position: 'absolute', right: 125}}/>
         </button>
       </div>
 
