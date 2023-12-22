@@ -4,6 +4,7 @@ import LandingBackground from "../Assets/landing-page-background.png"
 import Headshot from "../Assets/headshot.png"
 import { FiArrowRight } from "react-icons/fi"
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
+import Projects from './Projects';
 
 const Home = () => {
   return (
@@ -34,9 +35,11 @@ const Home = () => {
       </div>
 
       </div>
-
+      <Projects/>
     </div>
+    
   )
+  
 }
 
 export default Home

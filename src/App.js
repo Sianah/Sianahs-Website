@@ -11,6 +11,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route index element = {<Home/>}/>  {/*use index to begin on the main landing page */}
+          <Route path = "/home" element = {<Home/>}/> {/*creates path home so that there is now a path that leads to home */}
         </Routes>
       </BrowserRouter>
     </div>
