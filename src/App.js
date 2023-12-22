@@ -1,6 +1,7 @@
 import './App.css';
 import Home from './Components/Home';
 import Projects from './Components/Projects';
+import About from './Components/About';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Routes>
           <Route index element = {<Home/>}/>  {/*use index to begin on the main landing page */}
           <Route path = "/home" element = {<Home/>}/> {/*creates path home so that there is now a path that leads to home */}
+          <Route path = "/about" element = {<About/>}/>
         </Routes>
       </BrowserRouter>
     </div>
