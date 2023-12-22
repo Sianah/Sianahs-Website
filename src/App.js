@@ -16,6 +16,7 @@ function App() {
           <Route path = "/home" element = {<Home/>}/> {/*creates path home so that there is now a path that leads to home */}
           <Route path = "/about" element = {<About/>}/>
           <Route path = "/contact" element = {<Contact/>}/>
+          
         </Routes>
       </BrowserRouter>
     </div>
