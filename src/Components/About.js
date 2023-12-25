@@ -2,11 +2,6 @@ import React from 'react'
 import Navbar from './Navbar'
 import AboutBackground from "../Assets/about-page-background.png"
 import Stetson from "../Assets/stetson-pic.png"
-import { FiArrowRight } from "react-icons/fi"
-import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
-import Projects from './Projects';
-import {Link } from "react-router-dom";
-import {Text} from 'react'
 
 const About = () => {
   return (
