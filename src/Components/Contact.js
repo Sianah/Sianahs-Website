@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar';
 import ContactBackground from "../Assets/contact-page-background.png"
-import { SiLinkedin } from "react-icons/si"
+import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa"
 import { FaGithub } from "react-icons/fa"
 
@@ -24,6 +24,12 @@ const Contact = () => {
           to software development. You can also contact me through my linkedIn, Instagram, or Github 
           by pressing the correlating icons below.
           </p>
+        </div>
+
+        <div className="footer-icons">
+        <FaLinkedinIn />
+        <FaInstagram/>
+        <FaGithub/>
         </div>
 
       </div>
