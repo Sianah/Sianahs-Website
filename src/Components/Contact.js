@@ -27,9 +27,9 @@ const Contact = () => {
         </div>
 
         <div className="footer-icons">
-        <FaLinkedinIn />
-        <FaInstagram/>
-        <FaGithub/>
+        <FaLinkedinIn style={{position:'absolute', right:200, fontSize:45,}}/>
+        <FaInstagram style={{position:'absolute', right:-90, fontSize:45,}}/>
+        <FaGithub style = {{position:'absolute', right:-390, fontSize:45,}}/>
         </div>
 
       </div>

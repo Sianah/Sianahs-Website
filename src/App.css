@@ -207,6 +207,11 @@ nav {
 }
 .footer-icons {
   margin-top: 2.5rem;
+  position: absolute;
+  bottom: -300px;
+  left: 570px;
+  
+  
 }
 .footer-icons svg {
   font-size: 1.5rem;
