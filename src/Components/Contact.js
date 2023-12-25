@@ -1,11 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar';
 import ContactBackground from "../Assets/contact-page-background.png"
-import Headshot from "../Assets/headshot.png"
-import { FiArrowRight } from "react-icons/fi"
-import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
-import Projects from './Projects';
-import {Link } from "react-router-dom";
+
 
 const Contact = () => {
   return (
