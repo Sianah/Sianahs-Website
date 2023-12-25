@@ -14,13 +14,13 @@ const About = () => {
         </div>
         
         <div className="home-text-section">
-          <h1 className="primary-heading" style={{position:'absolute',left:800}}>
+          <h1 className="primary-heading" style={{position:'absolute',left:700}}>
           About Me
           </h1>
-          <p className="primary-text" style={{position:'absolute',left:700,top:80, }}>
+          <p className="primary-text" style={{position:'absolute',left:600,top:80, }}>
           {' \u00BA I am a senior attending Stetson University on the path to obtaining my Bachelors in Computer Science'}
           </p>
-          <p className="primary-text" style={{position:'absolute',left:700,top:230, }}>
+          <p className="primary-text" style={{position:'absolute',left:600,top:230, }}>
           {' \u00BA I enjoy software development and finding new ways to experiment and learn'}
           </p>
         </div>

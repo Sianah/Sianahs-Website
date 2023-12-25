@@ -19,7 +19,7 @@ const Projects = () => {
         },
         {
             image: SianahSmall,
-            title: "SianahSmall.com",
+            title: "Sianah.Small.com",
             text: "I fully developed this web application on my own to portray my craft for others to see :)"
         },
         {
