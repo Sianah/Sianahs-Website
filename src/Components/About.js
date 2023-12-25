@@ -1,11 +1,12 @@
 import React from 'react'
 import Navbar from './Navbar'
-import LandingBackground from "../Assets/about-page-background.png"
-import Headshot from "../Assets/headshot.png"
+import AboutBackground from "../Assets/about-page-background.png"
+import Stetson from "../Assets/stetson-pic.png"
 import { FiArrowRight } from "react-icons/fi"
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import Projects from './Projects';
 import {Link } from "react-router-dom";
+import {Text} from 'react'
 
 const About = () => {
   return (
@@ -14,25 +15,23 @@ const About = () => {
 
       <div className="home-banner-container">
         <div className="home-bannerImage-container">
-          <img src= {LandingBackground} alt="" />
+          <img src= {AboutBackground} alt="" />
         </div>
         
         <div className="home-text-section">
-          <h1 className="primary-heading">
-          Hello! My name is Sianah and I like to make things!
+          <h1 className="primary-heading" style={{position:'absolute',left:800}}>
+          About Me
           </h1>
-          <p className="primary-text">
-          Some of the things I like to make are both mobile and web apps! 
-          Down below are a few examples of what I’ve made or have worked on in 
-          collaboration with others
+          <p className="primary-text" style={{position:'absolute',left:700,top:80, }}>
+          {' \u00BA I am a senior attending Stetson University on the path to obtaining my Bachelors in Computer Science'}
           </p>
-          <button className="secondary-button" style={{position:'absolute', left:80, bottom:-20}}>
-          <Link to = "/contact" style={{textDecoration: 'none', color: 'black'}}>Contact</Link><PhoneRoundedIcon/>
-          </button>
+          <p className="primary-text" style={{position:'absolute',left:700,top:230, }}>
+          {' \u00BA I enjoy software development and finding new ways to experiment and learn'}
+          </p>
         </div>
 
-      <div className="home-image-container">
-        <img src={Headshot} alt="" />
+      <div className="home-image-container" style={{position:'absolute',right:700}}>
+        <img src={Stetson} alt="" />
       </div>
 
       </div>
