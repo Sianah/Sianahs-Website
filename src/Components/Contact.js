@@ -27,9 +27,20 @@ const Contact = () => {
         </div>
 
         <div className="footer-icons">
+
+        <a href='https://www.linkedin.com/in/sianah-small-81a688257/'>
         <FaLinkedinIn style={{position:'absolute', right:200, fontSize:45,}}/>
+        </a>
+
+        <a href='https://www.instagram.com/sisi_thatsme/'>
         <FaInstagram style={{position:'absolute', right:-90, fontSize:45,}}/>
+        </a>
+        
+
+        <a href = 'https://github.com/Sianah'>
         <FaGithub style = {{position:'absolute', right:-390, fontSize:45,}}/>
+        </a>
+
         </div>
 
       </div>
