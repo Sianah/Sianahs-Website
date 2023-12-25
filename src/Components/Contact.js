@@ -2,7 +2,8 @@ import React from 'react'
 import Navbar from './Navbar';
 import ContactBackground from "../Assets/contact-page-background.png"
 import { SiLinkedin } from "react-icons/si"
-
+import { FaInstagram } from "react-icons/fa"
+import { FaGithub } from "react-icons/fa"
 
 const Contact = () => {
   return (
