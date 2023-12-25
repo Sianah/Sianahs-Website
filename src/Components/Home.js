@@ -5,6 +5,7 @@ import Headshot from "../Assets/headshot.png"
 import { FiArrowRight } from "react-icons/fi"
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import Projects from './Projects';
+import {Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -26,7 +27,7 @@ const Home = () => {
           collaboration with others
           </p>
           <button className="secondary-button" style={{position:'absolute', left:80, bottom:-20}}>
-            Contact<PhoneRoundedIcon/>
+          <Link to = "/contact" style={{textDecoration: 'none', color: 'black'}}>Contact</Link><PhoneRoundedIcon/>
           </button>
         </div>
 
