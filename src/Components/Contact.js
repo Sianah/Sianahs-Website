@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar';
 import ContactBackground from "../Assets/contact-page-background.png"
+import { SiLinkedin } from "react-icons/si"
 
 
 const Contact = () => {
