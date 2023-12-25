@@ -28,16 +28,16 @@ const Contact = () => {
 
         <div className="footer-icons">
 
-        <a href='https://www.linkedin.com/in/sianah-small-81a688257/'>
+        <a href='https://www.linkedin.com/in/sianah-small-81a688257/' target="_blank">
         <FaLinkedinIn style={{position:'absolute', right:200, fontSize:45,}}/>
         </a>
 
-        <a href='https://www.instagram.com/sisi_thatsme/'>
+        <a href='https://www.instagram.com/sisi_thatsme/' target="_blank">
         <FaInstagram style={{position:'absolute', right:-90, fontSize:45,}}/>
         </a>
         
 
-        <a href = 'https://github.com/Sianah'>
+        <a href = 'https://github.com/Sianah' target="_blank">
         <FaGithub style = {{position:'absolute', right:-390, fontSize:45,}}/>
         </a>
 
